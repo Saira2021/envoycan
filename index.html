@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/c8ac17ee63.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    
+    <title>EnvoyCan</title>
+  </head>
+  <body class="bg-[#161616] text-[white]">
+    <!-- ===================================================== -->
+    <!-- Header Start -->
+    <!-- ===================================================== -->
+
+    <div class="flex p-[20px] shadow-md shadow-[black]">
+      <!-- Logo -->
+      <div class="w-40">
+        <img src="./assets/logo.png" alt="Company Logo" />
+      </div>
+
+      <!-- Search-bar -->
+      <div class="relative text-white mx-[7%] focus-within:text-white">
+        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+          <button
+            type="submit"
+            class="p-1 focus:outline-none focus:shadow-outline"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              class="w-6 h-6"
+            >
+              <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </button>
+        </span>
+        <input
+          type="search"
+          name="search"
+          class="py-2 text-sm text-white bg-[#161616] rounded-md pl-10 focus:outline-none focus:bg-[#45ff45] focus:text-white"
+          placeholder="Search"
+          autocomplete="off"
+        />
+      </div>
+      <!-- <div class="mx-10">
+        <input type="search" name="search" id="search" placeholder="Search" />
+      </div> -->
+
+      <!-- Menu list -->
+      <div class="">
+        <ul class="flex">
+          <li class="mx-8"><a href="#">Locations</a></li>
+          <li class="mx-8"><a href="#">Services</a></li>
+          <li class="mx-8"><a href="#">My Bookings</a></li>
+        </ul>
+      </div>
+
+      <div class="flex mx-6">
+        <button
+          class="px-8 bg-[#45ff45] font-semibold rounded-md hover:bg-[black] hover:text-[#45ff45]"
+          type="submit"
+        >
+          Login/Register
+        </button>
+        <button
+          class="ml-4 border px-4 rounded-md hover:bg-[#45ff45]"
+          type="submit"
+        >
+          Join Now
+        </button>
+      </div>
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- Header End -->
+    <!-- ===================================================== -->
+
+    <!-- ===================================================== -->
+    <!-- Chatbot Start -->
+    <!-- ===================================================== -->
+
+    <!-- Setting left side start -->
+    <div class="mt-[10%] px-[10%] flex">
+      <div class="items-center">
+        <div class="w-20">
+          <img
+            class="rounded-full h-[70px] w-[70px]"
+            src="./assets/profile-img.jpg"
+            alt="Profile-image"
+          />
+        </div>
+        <div class="text-center py-1.5">
+          <p>Soul Aremstrong</p>
+        </div>
+        <div class="btn">
+          <button type="submit" class="bg-[#45ff45] px-8 py-1.5 rounded-md">
+            Edit Profile
+          </button>
+        </div>
+
+        <!-- General Part Start-->
+        <div class="opacity-8 bg-[grey] px-4 my-4 py-1 w-60">
+          <p>General</p>
+        </div>
+
+        <!-- Icons -->
+        <div>
+          <i class="fa fa-moon-o" style="color: grey"></i>
+          <span>Dark Mode</span>
+          <i class="fa-regular fa-toggle-large-on"></i>
+          
+          <br />
+          <i class="fa fa-lock" style="color: grey"></i>
+          <span>Help Center</span>
+          <i class="fa-solid fa-angle-right"></i>
+          <br />
+          <i class="fa fa-globe" style="color: grey"></i>
+          <span>App Language</span> <br />
+          <i class="fa fa-heart" style="color: grey"></i>
+          <span>Favourite Service</span> <br />
+          <i class="fa fa-map-marker" style="color: grey"></i>
+          <span>Address</span><br />
+          <i class="fa fa-support" style="color: grey"></i>
+          <span> Support & live chat</span>
+        </div>
+        <!-- General Part End -->
+      </div>
+
+      <!-- Setting left side End -->
+
+      <!-- Chat Screen Start -->
+      <div class="lit"></div>
+      <!-- Chat Screen End -->
+
+      <!-- Open Contact Chat Start -->
+      <!-- Open Contact Chat End -->
+    </div>
+    <!-- ===================================================== -->
+    <!-- Chatbot Ends -->
+    <!-- ===================================================== -->
+  </body>
+</html>
